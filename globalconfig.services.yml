@@ -1,0 +1,4 @@
+services:
+ globalconfig.timezone:
+   class: Drupal\globalconfig\GconfServices
+   arguments: ['@config.factory']

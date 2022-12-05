@@ -1,0 +1,7 @@
+globalconfig.config:
+  path: '/admin/config/globalconfiguration'
+  defaults:
+    _form: '\Drupal\globalconfig\Form\GlobalconfigSettingsForm'
+    _title: 'Global configuration'
+  requirements:
+    _permission: 'administer site configuration'

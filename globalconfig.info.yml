@@ -1,0 +1,6 @@
+name: Global Configuration Form
+type: module
+description: 'To handle the custom global configuration from admin.'
+package: 'Global Configuration'
+core_version_requirement: ^8 || ^9
+configure: globalconfig.config
